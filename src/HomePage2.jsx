@@ -1307,6 +1307,7 @@ const HomePage2 = () => {
           {/* Oppotunities Container */}
           <div className="w-full justify-around items-center py-5 md:px-10 overflow-hidden">
             <TestSlider getCategoryName={getCategoryName} courses={courses} />
+
           </div>
           <Button onClick={() => navigate("/courses")} className="w-fit float">
             View more
